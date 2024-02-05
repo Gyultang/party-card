@@ -1,9 +1,98 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "party": {
+    "id": 0,
+    "date": "2024-03-18T13:00:00",
+    "location": {
+      "lat": 37.523459,
+      "lng": 127.03803,
+      "name": "베러데이즈 파티룸 강남점",
+      "address": "서울 강남구 도산대로49길 6-8 마태빌딩 지하1층",
+      "link": "https://map.kakao.com/link/to/강남파티룸데이즈,37.523459,127.038030",
+      "waytocome": {
+        "metro": [
+          "서울역(1호선) → 시청역(2호선) → 왕십리역(수인분당선) → 압구정로데오역(5번출구) (약 41분)"
+        ],
+        "bus": [
+          "서울역버스환승센터(5번승강장) 정류장 9401 승차 → 순천향대학병원 정류장 하차 → 순천향대학원.한남오거리 3011승차 → 영동119안전센터 정류장 (약 54분)",
+          "광희동 정류장 301 승차 → 일지아트홀 정류장 하차 (약 27분)",
+          "신사역1번출구 4212승차 → 영동119안전센터 정류장 하차 (약 9분)",
+          "금호역 정류장 301승차 → 일지아트홀 정류장 하차 (약 16분)",
+          "서울역서부 정류장 463승차 → 압구정중고등학교.현대아파트 정류장 하차 (약 46분)"
+        ]
+      }
+    },
+    "groom": {
+      "name": "류우선",
+      "account": {
+        "bankName": "신한",
+        "accountNumber": "110-356-123433",
+        "kakaopayLink": "https://qr.kakaopay.com/Ej8HNpNJZ"
+      },
+      "phoneNumber": "01045532323",
+      "parents": [
+        {
+          "name": "류영만",
+          "account": {
+            "bankName": "농협",
+            "accountNumber": "233331-51-061400"
+          },
+          "phoneNumber": "01053242422"
+        },
+        {
+          "name": "봉미선",
+          "account": {
+            "bankName": "농협",
+            "accountNumber": "352-1252-4559-90"
+          },
+          "phoneNumber": "01054912252"
+        }
+      ]
+    },
+    "bride": {
+      "name": "김규리",
+      "account": {
+        "bankName": "우리",
+        "accountNumber": "1002-253-419008",
+        "kakaopayLink": "https://qr.kakaopay.com/Ej8YREAoV "
+      },
+      "phoneNumber": "01040482733",
+      "parents": [
+        {
+          "name": "김미지",
+          "account": {
+            "bankName": "카카오뱅크",
+            "accountNumber": "3333-1112-11932"
+          },
+          "phoneNumber": "01024333423"
+        },
+        {
+          "name": "김창완",
+          "account": {
+            "bankName": "국민",
+            "accountNumber": "222-19-8842-472"
+          },
+          "phoneNumber": "01099928884"
+        }
+      ]
+    },
+    "message": {
+      "intro": "생일은 말합니다.\n태어난 날이 아니라\n다시 태어나는 날이라고\n기뻐하고 즐거워하기 보다는\n반성하고 뒤돌아보는 날이라고\n\n어제보다 더 넓어지고\n어제보다 더 깊어지고.\n어제보다 더 높아지는 날이라고\n양광모, <생일>",
+      "invitation": "소중한 분들을 초대합니다\n꽃향기와 새싹소리,\n봄의 싱그러움과 함께 \n26살 생일을 맞이했습니다.\n봄의 기운으로 가득한 이 날,\n함께하는 여러분과 \n 즐거운 순간을 만들 준비가 돼있습니다."
+    },
+    "galleryImages": [
+      "/assets/images/party_01.jpg",
+      "/assets/images/party_02.jpg",
+      "/assets/images/party_03.jpg",
+      "/assets/images/party_04.jpg",
+      "/assets/images/party_05.jpg",
+      "/assets/images/party_06.jpg",
+      "/assets/images/party_07.jpg",
+      "/assets/images/party_08.jpg",
+      "/assets/images/party_09.jpg",
+      "/assets/images/party_10.jpg",
+      "/assets/images/party_11.jpg",
+      "/assets/images/party_12.jpg"
+    ],
+    "attendCount": 3
+  }
 }
